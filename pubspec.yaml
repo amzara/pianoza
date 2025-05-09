@@ -7,9 +7,12 @@ environment:
   sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
+  box_transform: ^0.4.4
+  croppy: ^1.3.6
   flutter:
     sdk: flutter
   flutter_bloc: ^9.1.0
+  flutter_box_transform: ^0.4.7
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +21,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/sheet1.png
+    - assets/sheet2.png
+    
